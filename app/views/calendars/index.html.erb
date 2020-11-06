@@ -5,9 +5,9 @@
     <%= f.label :予定を入力, class: 'lavel' %>
     <%= f.text_field :plan, class: 'text-input' %>
     <%= f.submit '保存' %>
-  <% end %>
+    <% end %>
 </div>
-<div>
+
   <div class=calendar>
     <% @week_days.each do |day| %>
       <div class='item'>
@@ -24,4 +24,3 @@
       </div>
     <% end %>
   </div>
-</div>
